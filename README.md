@@ -8,6 +8,7 @@ sist 쌍용교육센터 실습예제
 2. [학습목표](#-학습목표)
 3. [학습기간](#-학습기간)
 4. [기술스택](#-Stacks)
+5. [설치 및 실행방법](#설치-및-실행방법)
 
 ## 🖥️ 개요
 > 이 프로젝트는 Spring AOP를 활용하여 공통 기능(로깅, 예외 처리 등)을 모듈화한 학습용 프로젝트입니다.
@@ -50,5 +51,22 @@ sist 쌍용교육센터 실습예제
 > ![Maven](https://img.shields.io/badge/Maven-C71A36.svg?style=for-the-badge&logo=apachemaven&logoColor=white)
 > ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 > ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+>
+
+## 설치 및 실행방법
+> ### 프로젝트 클론
+> ```bash
+> git clone https://github.com/yeojinhub/sistSpringBootAOP.git
+> ```
 > 
+> ### Maven 빌드
+> ```bash
+> mvn clean install
+> ```
+> 
+> ### 애플리케이션 실행
+> ```bash
+> mvn spring-boot:run
+> ```
+>
 
